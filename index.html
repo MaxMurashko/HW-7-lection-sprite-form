@@ -24,17 +24,22 @@
     <div class="container">
         <form class="reg-form" action="" method="post">
             <h3>Form</h3>
-            <input class="form-control" type="text" placeholder="Enter your login" minlength="5" required name="login"> 
-            <input class="form-control" type="password" placeholder="Enter password" required name="password">
-            <input class="form-control" type="number" placeholder="Enter your age" min="16" name="age">
+            <label for="login">Login</label> 
+            <input class="form-control" type="text" placeholder="Enter your login" minlength="5" required name="login" id="login">
+            <label for="password">Password</label>
+            <input class="form-control" type="password" placeholder="Enter password" required name="password" id="password">
+            <label for="age">Age</label>
+            <input class="form-control" type="number" placeholder="Enter your age" min="16" name="age" id="age">
+            <h4>Gender</h4>
             <input type="radio" id="male" name="gender" value="male"><label for="male">Male</label> 
             <input type="radio" id="female" name="gender" value="female"><label for="female">Female</label> 
             <select class="form-control" name="country" id="country">
                 <option value="">Select country</option>
                 <option value="UA">Ukraine</option>
-                <option value="DE">Germany</option>
+                <option value="GD">Germany</option>
                 <option value="JP">Japan</option>
             </select>
+                    
             <button class="btn btn-success" type="submit">Submit</button>   
             <button class="btn btn-danger" type="reset">Reset</button>
         </form>
