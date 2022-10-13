@@ -9,6 +9,7 @@ html, body {
     padding: 1rem;
     background: #ff5722;
 }
+
 .social-icons {
     margin-left: 1rem;
     width: 1.6rem;
@@ -44,5 +45,5 @@ html, body {
 }
 
 .reg-form input, select, button {
-    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
